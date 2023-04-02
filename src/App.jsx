@@ -1,14 +1,23 @@
+import TabelaHead from "./components/TabelaHead"
+import TabelaFoot from "./components/TabelaFoot"
+import TabelaBody from "./components/TabelaBody"
 
-
-
-function App() {
+const App = () => {
   
 
   return (
     <div>
-      <h1>Tabela de livros</h1>
+      
+      <tabela ClassName="tabela">
+
+        <TabelaHead />
+        <TabelaFoot />
+        <TabelaBody />
+        
+      </tabela>
+
     </div>
   )
 }
 
-export default App
+export default App;
